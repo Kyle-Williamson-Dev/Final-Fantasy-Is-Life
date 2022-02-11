@@ -1,0 +1,31 @@
+#login-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  font-family: "Quintessential", sans-serif;
+  text-align: center;
+}
+
+.sign-in {
+  text-align: center;
+}
+
+/* Media Quaries */
+
+@media (max-width: 480px) {
+  /* mobile */
+}
+@media (max-width: 768px) {
+  /* tablets */
+}
+@media (max-width: 768px) {
+  /* laptops */
+}
+@media (max-width: 1200px) {
+  /* desktops */
+}

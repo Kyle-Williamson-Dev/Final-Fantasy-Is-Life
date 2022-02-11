@@ -1,8 +1,10 @@
-<div>
+<div id="login-page">
+<div class="heading">
   <h1>Final Fantasy Is Life</h1>
 </div>
-
-<div>
+<br/>
+<br/>
+<div class="sign-in">
   <% if current_user %>
     
     <p>Hello <%= current_user.first_name %></p>
@@ -16,7 +18,9 @@
 
   <% else %>
 
-    <p>You are not signed in</p>
+    <p>Welcome to FFIL! A community built for Final Fantasy lovers everywhere. Click below to join the conversation. We'll see you there!'</p>
+    <br/>
+    <br/>
     <%= link_to "Join Us!", new_user_registration_path %>
     <%= link_to "Log In", new_user_session_path %>
 
