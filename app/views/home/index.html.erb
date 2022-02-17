@@ -1,28 +1,30 @@
 <div id="login-page">
-<div class="heading">
-  <h1>Final Fantasy Is Life</h1>
-</div>
-<br/>
-<br/>
-<div class="sign-in">
-  <% if current_user %>
-    
-    <p>Hello <%= current_user.first_name %></p>
-    <% if current_user.admin? %>
-      <p>You are logged in as [<%= current_user.role %>]</p>
+  <div class="heading">
+    <h1>Final Fantasy Is Life</h1>
+  </div>
+  <br/>
+  <br/>
+  <div class="sign-in">
+    <% if current_user %>
+      
+      <p>Hello <%= current_user.first_name %></p>
+      <% if current_user.admin? %>
+        <p>You are logged in as [<%= current_user.role %>]</p>
+        <br />
+        <p>There are <%= User.count %> users in the system.</p>
+      <% end %>
       <br />
-      <p>There are <%= User.count %> users in the system.</p>
+      <%= link_to "Sign Out", destroy_user_session_path, 'data-turbo-method': :delete %> 
+
+    <% else %>
+
+      <p class="welcome">Welcome to FFIL! A community built for Final Fantasy lovers everywhere. Click below to join the conversation. We'll see you there!'</p>
+      <br/>
+      <br/>
+      <button class="join-btn"><%= link_to "Join Us!", new_user_registration_path %></button>
+      <button class="login-btn"><%= link_to "Log In", new_user_session_path %></button>
+      
+
     <% end %>
-    <br />
-    <%= link_to "Sign Out", destroy_user_session_path, 'data-turbo-method': :delete %> 
-
-  <% else %>
-
-    <p>Welcome to FFIL! A community built for Final Fantasy lovers everywhere. Click below to join the conversation. We'll see you there!'</p>
-    <br/>
-    <br/>
-    <%= link_to "Join Us!", new_user_registration_path %>
-    <%= link_to "Log In", new_user_session_path %>
-
-  <% end %>
+  </div>
 </div>

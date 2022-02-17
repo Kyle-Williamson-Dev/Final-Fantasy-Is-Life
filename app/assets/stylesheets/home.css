@@ -1,11 +1,3 @@
-#login-page {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
 .heading {
   font-family: "Quintessential", sans-serif;
   text-align: center;
@@ -13,6 +5,27 @@
 
 .sign-in {
   text-align: center;
+  padding: 0 30px;
+}
+
+button {
+  padding: 6px 14px;
+  font-family: "Quintessential", sans-serif;
+}
+
+.join-btn {
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.login-btn {
+  background-color: #4e4e4e;
+  border: 1px solid #fff;
+  margin-left: 10px;
+}
+
+.login-btn a {
+  color: #fff;
 }
 
 /* Media Quaries */

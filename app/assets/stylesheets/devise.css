@@ -1,0 +1,11 @@
+/* New Registration Form */
+
+.join-page {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Login page */
