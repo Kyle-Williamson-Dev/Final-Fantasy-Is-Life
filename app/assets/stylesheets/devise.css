@@ -1,6 +1,7 @@
-/* New Registration Form */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Quintessential&display=swap");
 
-.join-page {
+.join-page,
+.login-page {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -8,4 +9,61 @@
   text-align: center;
 }
 
-/* Login page */
+.field {
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.label {
+  padding-bottom: 10px;
+}
+
+.actions {
+  padding-top: 20px;
+}
+
+/* Sign-up specific */
+
+.join-blurb {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.signup-btn {
+  padding: 14px 16px;
+  margin: 0;
+  background-color: #1f1f1f;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.2em;
+  font-family: "Quintessential", sans-serif;
+}
+
+.signup-btn:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+}
+
+/* Login specific */
+
+.login-blurb {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.login-btn:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+}
+
+.login-btn {
+  padding: 14px 16px;
+  margin: 0;
+  background-color: #1f1f1f;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.2em;
+  font-family: "Quintessential", sans-serif;
+}

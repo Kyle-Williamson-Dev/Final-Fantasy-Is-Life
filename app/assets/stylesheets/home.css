@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Quintessential&display=swap");
+
 .heading {
   font-family: "Quintessential", sans-serif;
   text-align: center;
 }
 
-.sign-in {
+.login {
   text-align: center;
   padding: 0 30px;
 }
