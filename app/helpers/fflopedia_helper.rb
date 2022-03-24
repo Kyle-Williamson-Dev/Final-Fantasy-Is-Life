@@ -1,0 +1,2 @@
+module FflopediaHelper
+end

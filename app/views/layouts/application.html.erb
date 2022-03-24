@@ -17,20 +17,12 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-    <!-- Banner above nav -->
-    <div class="banner">
-      <h1>Banner</h1>
-    </div>
-    
     <nav>
-      <div class="logo">
-        FFIL
-      </div>
       <ul class="menu">
         <li><%= link_to "Home", root_path, class: "nav-link" %></li>
         <li><%= link_to "Profile", class: "nav-link" %></li>
         <li><%= link_to "Forum", forum_index_path,  class: "nav-link" %></li>
-        <li><%= link_to "FFlopedia", class: "nav-link" %></li>
+        <li><%= link_to "FFlopedia", fflopedia_index_path, class: "nav-link" %></li>
       </ul>
     </nav>
 

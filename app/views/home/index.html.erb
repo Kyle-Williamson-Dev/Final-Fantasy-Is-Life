@@ -12,7 +12,7 @@
       <% if current_user.admin? %>
         <p>You are logged in as [<%= current_user.role %>]</p>
         <br />
-        <p>There are <%= User.count %> users in the system.</p>
+        <p>There are <%= User.count %> current users in the system.</p>
       <% end %>
       <br />
       <%= link_to "Sign Out", destroy_user_session_path, 'data-turbo-method': :delete %> 
