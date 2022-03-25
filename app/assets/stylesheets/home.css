@@ -4,18 +4,13 @@
   box-sizing: border-box;
 }
 
-.left-half {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
-}
-
 .heading {
   font-family: "Quintessential", sans-serif;
   text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .login {
@@ -34,13 +29,56 @@ button {
 }
 
 .login-btn {
-  background-color: #4e4e4e;
+  background-color: #4f4f4f;
   border: 1px solid #fff;
   margin-left: 10px;
 }
 
 .login-btn a {
   color: #fff;
+} 
+
+.left-half {
+  background-color: #494949;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.right-half {
+  background-color: black;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+html, body, section, div {
+  height: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Pattern styles */
+.left-half {
+  background-color: #202020;
+  float: left;
+  width: 50%;
+}
+.right-half {
+  background-color: #000;
+  float: left;
+  width: 50%;
 }
 
 /* Media Quaries */
@@ -53,4 +91,4 @@ button {
 }
 @media (max-width: 768px) {
   /* laptops */
-}
+} */
