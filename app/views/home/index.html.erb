@@ -1,5 +1,4 @@
-<div class="login-page">
-
+<div class="left-half">
   <div class="heading">
     <h1>Final Fantasy Is Life</h1>
   </div>
@@ -7,7 +6,7 @@
   <br/>
   <div class="login">
     <% if current_user %>
-      
+        
       <p>Hello <%= current_user.first_name %></p>
       <% if current_user.admin? %>
         <p>You are logged in as [<%= current_user.role %>]</p>
@@ -24,9 +23,12 @@
       <br/>
       <button class="join-btn"><%= link_to "Join Us!", new_user_registration_path %></button>
       <button class="login-btn"><%= link_to "Log In", new_user_session_path %></button>
-      
+          
 
     <% end %>
   </div>
+</div>
 
+<div class="right-half">
+    <h1>picture</h1>
 </div>

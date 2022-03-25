@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Quintessential&display=swap");
 
-.login-page {
+* {
+  box-sizing: border-box;
+}
+
+.left-half {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -49,7 +53,4 @@ button {
 }
 @media (max-width: 768px) {
   /* laptops */
-}
-@media (max-width: 1200px) {
-  /* desktops */
 }
