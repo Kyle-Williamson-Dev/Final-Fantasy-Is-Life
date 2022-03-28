@@ -36,23 +36,26 @@ button {
 
 .login-btn a {
   color: #fff;
-} 
+}
 
 .left-half {
-  background-color: #494949;
+  background-color: #202020;
   float: left;
   width: 50%;
   height: 100%;
 }
 
 .right-half {
-  background-color: black;
+  background-image: url(cloudvssephiroth.jpg);
   float: left;
   width: 50%;
   height: 100%;
 }
 
-html, body, section, div {
+html,
+body,
+section,
+div {
   height: 100%;
 }
 
@@ -68,19 +71,6 @@ article {
   transform: translate(-50%, -50%);
 }
 
-
-/* Pattern styles */
-.left-half {
-  background-color: #202020;
-  float: left;
-  width: 50%;
-}
-.right-half {
-  background-color: #000;
-  float: left;
-  width: 50%;
-}
-
 /* Media Quaries */
 
 @media (max-width: 480px) {
@@ -91,4 +81,4 @@ article {
 }
 @media (max-width: 768px) {
   /* laptops */
-} */
+}
