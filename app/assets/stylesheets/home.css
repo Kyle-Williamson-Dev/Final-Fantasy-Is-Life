@@ -41,14 +41,18 @@ button {
 .left-half {
   background-color: #202020;
   float: left;
-  width: 50%;
+  width: 30%;
   height: 100%;
 }
 
 .right-half {
-  background-image: url(cloudvssephiroth.jpg);
+  background: url(cloudvssephiroth.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   float: left;
-  width: 50%;
+  width: 70%;
   height: 100%;
 }
 

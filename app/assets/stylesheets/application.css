@@ -7,7 +7,6 @@
 }
 
 body {
-  background-color: #1f1f1f;
   height: 100%;
   color: #fff;
   font-family: "Lato", sans-serif;
@@ -20,14 +19,19 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to left, #a1a1a1, #d3d3d3);
+  background-color: rgba(0, 0, 0, 0.25);
   padding: 16px 0;
   margin: 0;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
 }
 
 nav li {
   display: inline;
-  color: white;
 }
 
 nav a:hover {
@@ -35,11 +39,11 @@ nav a:hover {
   color: black;
 }
 
-a {
+nav a {
   text-decoration: none;
   padding: 16px 14px 17px 14px;
   font-size: 17px;
-  color: #000;
+  color: #fff;
 }
 
 @media (max-width: 480px) {
